@@ -13,11 +13,11 @@ Testing | Selenium
 `Continuous Deployment or Continuous Delivery`
 Continuous Deployment  |  BY 
 | :--- | ---: 
-Deployment is 2 types | 1. Treditional 2. Micro-Service
-Treditional| Ansible  | ----
-Micro-Service | Docker/ Kubernetes
+Deployment is 2 types | 1. Treditional deployment 2. Containerized deployment
+Treditional| puppet or Ansible  | ----
+Containerized deployment | Docker/ Kubernetes
 
-`Monitoring`
+`Countinuous Monitoring`
 
 Monitoring  |  BY 
 | :--- | ---: 
@@ -30,10 +30,40 @@ Monitoring  | Nagios |
  ```
  #### 2. Install Nagios & dependencies
  ```bash
- apt-get update && apt-get install build-essential apache2 php openssl perl make php-gd libgd-deb libapache2-mod-php libperl libssl-dev deamon wget apache2-utlis unzip
+ apt-get update && apt-get install build-essential apache2 php openssl perl make php-gd libgd-dev libapache2-mod-php libperl-dev libssl-dev deamon wget apache2-utlis unzip
 ```
 ### `also we can install one by one`
 ``` bash
 apt-get install build-essential
+
+apt-get install apache2
+
+apt-get install php
+
+apt-get install openssl
+
+apt-get install perl
+
+apt-get install make
+
+apt-get install php-gd
+
+apt-get install libgd-dev
+
+apt-get install libapache2-mod-php
+
+apt-get install libperl-dev
+
+apt-get install libssl-dev
+
+sudo apt-get install daemon
+
+apt-get install wget
+
+apt-get install  apache2-utils
+
+apt-get install  unzip
+
 ```
+
 
