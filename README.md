@@ -56,6 +56,8 @@ apt-get install libperl-dev
 
 apt-get install libssl-dev
 
+sudo apt install librecad
+
 sudo apt-get install daemon
 
 apt-get install wget
