@@ -32,6 +32,10 @@ Monitoring  | Nagios |
  ```bash
  apt-get update && apt-get install build-essential apache2 php openssl perl make php-gd libgd-dev libapache2-mod-php libperl-dev libssl-dev deamon wget apache2-utlis unzip
 ```
+### On VM-Machine use this command
+```bash
+apt-get update && apt install -y autoconf bc gawk dc build-essential gcc libc6 make wget unzip apache2 php libapache2-mod-php libgd-dev libmcrcd ypt-dev make libssl-dev snmp libnet-snmp-perl gettext
+```
 ### `also we can install one by one`
 ``` bash
 apt-get install build-essential
