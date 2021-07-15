@@ -113,7 +113,7 @@ a2enmod cgi
 systemctl restart apache2.service
 ```
 ### Nagios Installation (cont)
-#### 10. In web `browser` type: <server public-ip/nagios> like- `192.16x.x.x/nagios` Click Hosts and you will see an error. This is because Nagios plugins has not been installed yet. Install Nagios plugins:
+#### 10. In web `browser` type: <server public-ip/nagios> like- `192.168.x.x/nagios` Click Hosts and you will see an error. This is because Nagios plugins has not been installed yet. Install Nagios plugins:
 ```bash
 cd /tmp
 wget https://nagios-plugins.org/download/nagios-plugins-2.3.3.tar.gz
