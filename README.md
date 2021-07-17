@@ -152,6 +152,9 @@ systemctl start nagios
 > All the object resources in Nagios are defined inside the nagios.cfg file. This file determines what kind of resource/objects can be declared on the dashboard which can be external servers (linux/windows), log files, printers, routers, switches etc
 ![nagios_cfg](https://user-images.githubusercontent.com/77927449/125818409-2ed42844-42b9-4921-8372-898c4d4cc1ab.png)
 
+##### Each element inside the Nagios dashboard is an object and stored inside the objects directory under the extension `“.cfg”`. These are the configuration files. All Nagios objects reside inside these cfg files
+##### Go to directory: `cd /usr/local/nagios/etc/objects` and list all files
+
 
 
 
