@@ -155,6 +155,13 @@ systemctl start nagios
 ##### Each element inside the Nagios dashboard is an object and stored inside the objects directory under the extension `“.cfg”`. These are the configuration files. All Nagios objects reside inside these cfg files
 ##### Go to directory: `cd /usr/local/nagios/etc/objects` and list all files
 
+> Open the localhost.cfg and you will see the services 
+
+![localhost.cfg](https://lh4.googleusercontent.com/-i-d5Gm-4zFbcYN3EbRo2Q6koFSm3ik4SzoZRTeoONcH1loZYke_l4FqWinF_dJWBrtQGu1BBhpO6LWniIKuF9mE1DbAKLat2OVGQEj9gAnZbl7vzZM_JSwJkk8m6fPIe92yKoJ6GFM)
+
+![up](https://lh3.googleusercontent.com/MZc97Fe3zchSu_Io6cuM13wKxPms7WF6nRN1x-WCVlYpedsrg7l2JevzC1gprySTyD3r6Ejk_cX1WhWn5QGwBNge1NOUsyll-tLuNjadDLupbSkHQYwzIgbTLwceM658UhkuiTxq9S0)
+
+
 
 
 
