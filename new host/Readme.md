@@ -1,4 +1,4 @@
-### How to crete a new Monitor your laptop your mobile & your web..
+### How to crete a new Monitoring your laptop your mobile & your web..
 
 #### 1. Install nagios & all dependencies & run also ipaddress/nagios
 > then config the file go to the `/usr/local/nagios/etc/` folder & create a new folder `servers`
