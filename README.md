@@ -71,7 +71,7 @@ apt-get install  apache2-utils
 apt-get install  unzip
 
 ```
-#### 3. Check if Apache is installed in Nagios Server by pasting public IP or static IP into the web browser.
+#### 3. Check if Apache is installed in Nagios Server by pasting public IP or static IP into the web browser -
 > Create nagios user and nagcmd group and add the nagios and apache user to the part of the nagcmd group.
 ```bash
 useradd nagios
